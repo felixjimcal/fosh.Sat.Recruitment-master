@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruitment.Models\Sat.Recruitment.Models.csproj" />
+    <ProjectReference Include="..\Sat.Recruitment.Repositories\Sat.Recruitment.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
